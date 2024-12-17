@@ -10,6 +10,7 @@
   line-height: 1.4;
   border: 1px dashed #ccc;
   position: relative;
+  color: white;
 }
 
 .about.hide {

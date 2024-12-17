@@ -1,6 +1,28 @@
+
+
+nodejs 要使用老版本
+
+### 本地开发
+
+1. 克隆该项目到本地
+2. 运行 `nvm use 16.20.2` *十分重要*
+2. 运行 `yarn install` 来安装依赖 （或者使用 `npm install`）
+3. 运行 `yarn start` 开启 webpack-dev-server，并在浏览器中打开 `localhost:8080`
+4. 运行 `yarn build` 来打包生产版本，打包输出在 `dist/` 文件夹下
+
+`devConfig.js` 包含了一些开发用的配置项，注意修改该文件中的配置之后需要重启 webpack-dev-server
+
+我想改造成适合ai开发和设计的样子
+
+
+
+
+
 # 坦克大战复刻版（Battle City Remake）
 
-游戏地址: https://shinima.github.io/battle-city
+游戏地址: https://tankvstank.com/
+
+# 以下 fork 自原始库
 
 游戏详细介绍见知乎专栏文章: [https://zhuanlan.zhihu.com/p/35551654](https://zhuanlan.zhihu.com/p/35551654)
 

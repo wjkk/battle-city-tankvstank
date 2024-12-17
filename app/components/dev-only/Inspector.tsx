@@ -110,7 +110,7 @@ if (DEV.INSPECTOR) {
         <div
           style={{
             width: 240,
-            maxHeight: 480,
+            maxHeight: 720,
             overflow: 'auto',
             fontSize: '12px',
             border: '1px dashed #ccc',

@@ -68,10 +68,7 @@ const AboutChoose = () => (
 
 const AboutTitle = () => (
   <div>
-    <p>
-      请使用最新的 chrome 浏览器，并适当调整浏览器的缩放比例（1080P 下设置为 200%
-      缩放），以获得最好的游戏体验。
-    </p>
+
     <p className="bold">W 上一个选项</p>
     <p className="bold">S 下一个选项</p>
     <p className="bold">J 确定</p>
@@ -90,17 +87,6 @@ export default class About extends React.Component {
     const { hide } = this.state
     return (
       <div className={classNames('about', { hide })}>
-        <button className="close" onClick={this.onHide}>
-          隐藏
-        </button>
-        <p>
-          当前版本 <br />
-          {COMPILE_VERSION}
-        </p>
-        <p>
-          编译时间 <br />
-          {COMPILE_DATE}
-        </p>
         <Switch>
           <Route path="/list" render={AboutList} />
           <Route path="/editor" render={AboutEditor} />

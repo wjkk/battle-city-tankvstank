@@ -94,15 +94,6 @@ export class GameTitleSceneContent extends React.PureComponent<
           </pattern>
         </defs>
         <rect fill="#000000" width={16 * B} height={15 * B} />
-        <g transform="scale(0.5)">
-          <TextButton
-            textFill="#96d332"
-            x={22 * B}
-            y={B}
-            content="star me on github"
-            onClick={() => window.open('https://github.com/shinima/battle-city')}
-          />
-        </g>
         <Text content={'\u2160-    00 HI- 20000'} x={1 * B} y={1.5 * B} />
         <g transform={`scale(${scale})`}>
           <Text
@@ -162,9 +153,6 @@ export class GameTitleSceneContent extends React.PureComponent<
             })
           }
         />
-
-        <Text content={'\u00a9 1980 1985 NAMCO LTD.'} x={2 * B} y={12.5 * B} />
-        <Text content="ALL RIGHTS RESERVED" x={3 * B} y={13.5 * B} />
       </g>
     )
   }
