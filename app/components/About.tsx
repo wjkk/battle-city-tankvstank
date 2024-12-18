@@ -4,25 +4,25 @@ import { Route, Switch } from 'react-router-dom'
 
 const AboutGallery = () => (
   <div>
-    <p>请使用鼠标操作该页面。</p>
+    <p>Please use the mouse to operate this page.</p>
   </div>
 )
 
 const AboutList = () => (
   <div>
-    <p>请使用鼠标操作该页面。切换分页时会有卡顿现象，请耐心等待。</p>
-    <p>自定义关卡数据会保存在浏览器缓存中。</p>
+    <p>Please use the mouse to operate this page. There will be a stutter when switching the paging, please wait patiently.</p>
+    <p>Custom level data is stored in the browser cache.</p>
   </div>
 )
 
 const AboutEditor = () => (
   <div>
-    <p>请使用鼠标操作该页面。</p>
-    <p>在 config tab 中配置关卡的名称和敌人，注意关卡名称不能和游戏自带关卡的名称相同。</p>
+    <p>Please use the mouse to operate this page.</p>
+    <p>Configure the name and enemy of the level in Config Tab. Note that the name of the level cannot be the same as the name of the game comes with the customs.</p>
     <p>
-      在 map tab
-      中配置关卡地图，选定一种画笔之后，在地图中按下鼠标并拖拽，来完成地图配置。brick-wall 和
-      steel-wall 的形状可以进行调整。
+      exist map tab
+      Configure the level map. After selecting a brush, press the mouse and drag in the map to complete the map configuration.
+      Brick-Wall and The shape of Steel-Wall can be adjusted.
     </p>
   </div>
 )
@@ -31,48 +31,66 @@ const AboutGame = () => (
   <div>
     <p>
       <b>ESC</b>
-      ：暂停游戏
-      <br />
-      <b>后退</b>
-      ：返回到关卡选择页面
+      ：Pause
     </p>
     <p>
-      玩家一
+      Player 1
       <br />
       <b>WASD</b>
-      ：控制方向
+      ：move
       <br />
       <b>J</b>
-      ：控制开火
+      ：fire
     </p>
     <p>
-      玩家二
+      Player 2
       <br />
-      <b>方向键</b>
-      ：控制方向
+      <b>Arrow keys</b>
+      ：move
       <br />
       <b>/</b>
-      ：控制开火
+      ：fire
     </p>
   </div>
 )
 
 const AboutChoose = () => (
   <div>
-    <p className="bold">A 上一个关卡</p>
-    <p className="bold">D 下一个关卡</p>
-    <p className="bold">J 开始游戏</p>
-    <p>该页面也支持鼠标控制</p>
+    <p className="bold">A Previous level</p>
+    <p className="bold">D Next level</p>
+    <p className="bold">J Start game</p>
+    <p>This page also supports mouse control</p>
   </div>
 )
 
 const AboutTitle = () => (
   <div>
-
-    <p className="bold">W 上一个选项</p>
-    <p className="bold">S 下一个选项</p>
-    <p className="bold">J 确定</p>
-    <p>该页面也支持鼠标控制</p>
+    <p>
+      Player 1
+      <br />
+      <b>WASD</b>
+      ：move
+      <br />
+      <b>J</b>
+      ：fire
+    </p>
+    <p>
+      Player 2
+      <br />
+      <b>Arrow keys</b>
+      ：move
+      <br />
+      <b>/</b>
+      ：fire
+    </p>
+    <p className="bold">
+      W Previous option
+      <br />
+      S Next option
+      <br />
+      J Confirm option
+    </p>
+    <p>This page also supports mouse control</p>
   </div>
 )
 

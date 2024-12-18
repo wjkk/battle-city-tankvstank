@@ -13,7 +13,7 @@ export const BULLET_SIZE = 3
 /** 摧毁steel的最低子弹power值 */
 export const STEEL_POWER = 3
 
-export const ZOOM_LEVEL = 2.5   //改的稍大一点 by wjk
+export const ZOOM_LEVEL = 2   //改的稍大一点 by wjk
 export const SCREEN_WIDTH = 16 * BLOCK_SIZE
 export const SCREEN_HEIGHT = 15 * BLOCK_SIZE
 
